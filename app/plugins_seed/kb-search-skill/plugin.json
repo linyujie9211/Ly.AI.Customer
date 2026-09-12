@@ -1,0 +1,11 @@
+{
+  "id": "kb-search-skill",
+  "name": "知识库检索",
+  "version": "1.0.0",
+  "description": "把客服知识库检索暴露为智能体工具，支持对话中按需检索知识库资料",
+  "author": "Ly AI Customer",
+  "enabled": true,
+  "source": "builtin",
+  "builtin": true,
+  "tools": ["kb_search"]
+}

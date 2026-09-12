@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# 运行时工作区（SQLite 数据库、日志、知识库、插件运行时副本，全部生成文件集中于此）
+workspace/
+
+# 前端
+web/node_modules/
+web/dist/
+web/.npm-cache/
+
+# 环境变量与敏感信息
+.env
+.env.local
+
+# IDE / 编辑器
+.vscode/
+.idea/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini

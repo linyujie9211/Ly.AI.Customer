@@ -1,0 +1,11 @@
+{
+  "id": "time-skill",
+  "name": "时间查询",
+  "version": "1.0.0",
+  "description": "提供服务器当前日期时间查询工具，供智能体回答时间类问题",
+  "author": "Ly AI Customer",
+  "enabled": true,
+  "source": "builtin",
+  "builtin": true,
+  "tools": ["get_current_time"]
+}
